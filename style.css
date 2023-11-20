@@ -1,0 +1,195 @@
+@charset "UTF-8";
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  padding: 2px 5px;
+}
+
+body {
+  background: #cca700;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body h3 {
+  font-size: 1.6rem;
+  color: #303030;
+}
+body a {
+  color: #70570f;
+}
+body a:hover {
+  color: #453300;
+}
+
+.container {
+  max-width: 1000px;
+  min-height: 400px;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+@media (max-width: 1000px) {
+  .container {
+    margin: 1rem 2rem;
+  }
+}
+@media (max-width: 578px) {
+  .container {
+    margin: 0;
+  }
+}
+.container .row {
+  display: flex;
+  align-content: stretch;
+  flex-wrap: wrap;
+  background: #fff;
+  box-shadow: 35px 40px 100px #826b00;
+}
+.container .row.navBlock {
+  background: none;
+  box-shadow: none;
+}
+.container .row .col-4 {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .container .row .col-4 {
+    flex: 0 0 auto;
+    width: 33%;
+  }
+}
+.container .row .col-8 {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .container .row .col-8 {
+    flex: 0 0 auto;
+    width: 67%;
+  }
+}
+
+.leftBlock {
+  background: #f6f6f6;
+  min-height: 100%;
+}
+.leftBlock .photo {
+  text-align: center;
+  border-radius: 0 0 50% 50%;
+  overflow: hidden;
+  border: 50px solid #fff;
+  background: #ffd739;
+  border-top: none;
+  padding-top: 3rem;
+}
+.leftBlock .photo .ava {
+  width: 240px;
+  margin-bottom: -4px;
+}
+@media (max-width: 1000px) {
+  .leftBlock .photo {
+    border: none;
+  }
+}
+.leftBlock .block {
+  margin: 2rem;
+}
+.leftBlock .block .contacts i {
+  background: #ffd739;
+  padding: 7px;
+  min-width: 20px;
+  text-align: center;
+}
+.leftBlock .block .education {
+  border-left: 5px solid #ffd739;
+  padding-left: 16px;
+}
+.leftBlock .block .education span {
+  font-size: 0.8rem;
+}
+.leftBlock .persone {
+  display: none;
+  border-bottom: 2px solid #ffd739;
+  padding-bottom: 2rem;
+  margin: 2rem;
+}
+.leftBlock .persone .name {
+  font-size: 1.6rem;
+  color: #303030;
+  text-transform: uppercase;
+  line-height: normal;
+}
+@media (max-width: 768px) {
+  .leftBlock .persone {
+    display: block;
+  }
+}
+
+.rightBlock .wrap {
+  padding: 5rem;
+}
+.rightBlock .wrap .persone {
+  border-bottom: 2px solid #ffd739;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+.rightBlock .wrap .persone .name {
+  font-size: 3rem;
+  color: #303030;
+  text-transform: uppercase;
+  line-height: normal;
+}
+.rightBlock .wrap .persone .name span {
+  display: block;
+  font-size: 2.6rem;
+}
+@media (max-width: 578px) {
+  .rightBlock .wrap .persone .name {
+    font-size: 2rem;
+  }
+}
+.rightBlock .wrap .persone .special {
+  font-size: 1.4rem;
+  font-weight: 100;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+@media (max-width: 768px) {
+  .rightBlock .wrap .persone {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .rightBlock .wrap {
+    padding: 2rem;
+  }
+}
+.rightBlock .block {
+  margin-bottom: 4rem;
+}
+.rightBlock .block .organis {
+  font-size: 1rem;
+}
+.rightBlock .block .description {
+  border-left: 5px solid #ffd739;
+  padding-left: 16px;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  text-align: justify;
+}
+.rightBlock .block .skills li {
+  display: inline;
+  padding-right: 1rem;
+}
+.rightBlock .block .skills li:before {
+  content: "✹";
+  color: #ffd739;
+}
+@media (max-width: 768px) {
+  .rightBlock .block .skills li {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */

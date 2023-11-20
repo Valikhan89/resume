@@ -1,0 +1,16 @@
+
+body{
+    background: #cca700;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    h3{
+        font-size:  1.6rem;
+        color:#303030;
+    }
+    a{
+        color:#70570f;
+        &:hover {
+        color:#453300;
+        }
+    }
+}
